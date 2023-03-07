@@ -81,6 +81,7 @@
 
 #con {
     border-radius: 2rem;
+	background-attachment: fixed;
     padding: 1.5rem 4rem;
     box-shadow: inset -2px -2px 15px -6px var(--color2), 2px 2px 15px -4px var(--color5);
 }
