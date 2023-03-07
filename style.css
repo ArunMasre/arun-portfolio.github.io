@@ -1,17 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
 /* display background color black on navbar scroll */
 
 .navbarScroll.navbarDark {
     background-color: black;
 }
 
-
-/* hero background image */
-
 .bgimage {
     height: 100vh;
+    background-attachment: fixed;
     background: url('images/pic.jpg');
     background-size: cover;
     position: relative;
+}
+
+#home {
+    background-attachment: fixed;
 }
 
 
@@ -43,6 +51,7 @@
 #contact {
     margin-top: 4rem;
     padding-top: 4rem;
+    /* background-color: antiquewhite; */
 }
 
 #contact {
@@ -55,6 +64,84 @@
 .imageAboutPage {
     width: 100%;
 }
+
+
+/* skills part */
+
+
+/* Make sure that padding behaves as expected */
+
+* {
+    box-sizing: border-box;
+}
+
+*/ .skills {
+    padding-top: 4px;
+    text-align: right;
+    /* Right-align text */
+    padding-top: 2px;
+    /* Add top padding */
+    padding-bottom: 2px;
+    /* Add bottom padding */
+    color: white;
+    /* White text color */
+}
+
+.java {
+    /* height: 5px; */
+    width: 92%;
+    height: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(250, 215, 215);
+}
+
+.oops {
+    width: 88%;
+    height: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(250, 215, 215);
+    ;
+}
+
+.mysql {
+    width: 85%;
+    height: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(250, 215, 215);
+    ;
+}
+
+.html {
+    width: 80%;
+    height: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(250, 215, 215);
+    ;
+}
+
+
+/* Green */
+
+.css {
+    width: 75%;
+    margin-bottom: 10px;
+    height: 20px;
+    background-color: rgb(250, 215, 215);
+}
+
+
+/* Blue */
+
+.js {
+    width: 70%;
+    height: 20px;
+    margin-bottom: 5px;
+    background-color: rgb(250, 215, 215);
+    /* background-colorgray; */
+}
+
+
+/* Dark Grey */
 
 
 /* social media icons styling */
@@ -79,10 +166,20 @@
 
 /* contact part */
 
+.py-1 {
+    align-items: center;
+}
+
 #con {
+    padding-right: 16rem;
+    border-left-width: 0px;
+    border-left-style: solid;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
     border-radius: 2rem;
-	background-attachment: fixed;
-    padding: 1.5rem 4rem;
+    text-align: center;
+    /* padding: 0%;
+    padding: 1.5rem 4rem; */
     box-shadow: inset -2px -2px 15px -6px var(--color2), 2px 2px 15px -4px var(--color5);
 }
 
@@ -99,7 +196,8 @@
 }
 
 .my-3 {
-    padding-left: 20px;
+    box-sizing: border-box;
+    padding: 5px;
 }
 
 
